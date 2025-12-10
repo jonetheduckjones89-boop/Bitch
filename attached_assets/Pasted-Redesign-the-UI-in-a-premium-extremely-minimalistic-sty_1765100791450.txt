@@ -1,0 +1,238 @@
+Redesign the UI in a premium, extremely minimalistic style inspired directly by ModelML, under the new product name “Cleo.ai”.
+
+The design must feel purposeful, consistent, and created by a senior designer over months — clean, spaced, calm, and high-end.  
+No flashy elements. No over-decoration. Everything must have intention and function.
+
+Remove the Pricing page entirely.
+
+Ensure:
+- every section on the homepage has its own dedicated page  
+- every button performs a specific, meaningful task  
+- the “empty block” on the homepage is filled with realistic customer quotes about Cleo.ai (similar to ModelML)  
+- clean white/grey/blue palette  
+- soft corners (12–16px)  
+- very subtle gradients  
+- quiet micro-animations only  
+- thin typographic hierarchy similar to ModelML  
+
+========================================================
+1) BRANDING
+========================================================
+
+Brand Name: **Cleo.ai**
+
+Logo Style:  
+- minimal geometric symbol  
+- navy wordmark  
+- no heavy gradients  
+
+Navigation:
+- Product  
+- Use Cases  
+- Features  
+- Docs  
+- Login  
+- CTA: “Start Free Workspace”  
+(Button task: opens onboarding stepper)
+
+========================================================
+2) HOMEPAGE — MODELML STYLE + STRUCTURED SECTIONS
+========================================================
+
+HEADER  
+Minimal, fixed top, transparent → slight blur on scroll.
+
+HERO  
+Left Side:
+- H1: “Your Clinical Operations. Fully Automated.”  
+- Subheading: “Cleo.ai organizes patient data, documents, communication, and workflow automation into one intelligent workspace.”
+
+CTA Buttons (each must serve a task):
+1. **Create Workspace** → opens onboarding flow  
+2. **View Example Workspace** → navigates to demo page  
+3. **Learn How Cleo Works** → scrolls to “How It Works” section  
+
+Right Side:
+- elegant dashboard preview (no heavy depth)
+
+---------------------------------------------
+SECTION: How Cleo.ai Works (OWN PAGE + HOME BLOCK)
+---------------------------------------------
+Home page summary + dedicated page link.
+
+Home preview block steps:
+1. Connect your clinic apps  
+2. Cleo.ai extracts and organizes patient data  
+3. Automations run in background  
+4. You receive structured insights automatically  
+
+Each step has a “Learn More” button → navigates to full page.
+
+---------------------------------------------
+SECTION: Features (OWN PAGE)
+---------------------------------------------
+Minimal feature cards (6):
+- Files AI  
+- Emails AI  
+- Meetings & Calls AI  
+- Real-time Patient Data  
+- Automation Builder  
+- Integrations  
+Each card includes:
+- one-line explanation  
+- “Open Feature Page” button → corresponding feature page
+
+---------------------------------------------
+SECTION: Customer Quotes (FILLS THE BIG EMPTY BLOCK)
+---------------------------------------------
+Add a clean testimonial grid similar to ModelML.
+
+Example quotes:
+- “Cleo.ai reduced 80% of our clerical work in the first week.” — Dr. Yasmin K.  
+- “Our patient documents finally make sense. Brilliant extraction.” — Westline Clinic  
+- “The automation builder is a complete game changer.” — Mediva Group  
+- “Cleo.ai feels like having a full-time operations assistant.” — Dr. Miguel Lopez  
+- “We replaced five tools with one. Clean, fast, and reliable.” — Harmony Care  
+
+This section includes:
+- minimal profile photo or initials  
+- quiet transitions  
+- button: “Read More Stories” → Testimonials page
+
+---------------------------------------------
+SECTION: Integrations (OWN PAGE)
+---------------------------------------------
+Icons for Google Drive, Gmail, Calendar, Notion, Dropbox, Microsoft 365  
+Button: “View All Integrations” → Integrations page
+
+---------------------------------------------
+FINAL CTA  
+- big clean CTA card  
+- text: “Start automating your clinic with Cleo.ai today.”  
+- button: **Start Free Workspace** → onboarding stepper  
+
+========================================================
+3) ONBOARDING STEPPER — EVERY BUTTON HAS A PURPOSE
+========================================================
+
+STEP 1 — Clinic Info  
+Fields: Clinic Name, Clinic Type, Avg Patients/Month, Website, Contact Name, Email, Timezone  
+Buttons:  
+- **Back** → returns to homepage  
+- **Continue** → validates fields → Step 2  
+
+STEP 2 — Connect Apps  
+Each app has a Connect button with a specific function:  
+- Google Drive → OAuth  
+- Gmail → OAuth  
+- Calendar → OAuth  
+- Notion → API key input + OAuth  
+- Dropbox → OAuth  
+- Microsoft → OAuth  
+
+Buttons:  
+- **Skip for Now** → Step 3  
+- **Continue** → Step 3  
+
+STEP 3 — Select Templates  
+Toggle templates:  
+- Dental Intake  
+- Lab Pipeline  
+- Billing Follow-up  
+- Telehealth Scheduling  
+
+Buttons:  
+- **Back** → Step 2  
+- **Create Workspace** → generates user workspace  
+
+========================================================
+4) WORKSPACE DASHBOARD — SIMPLE, MODERN, FUNCTIONAL
+========================================================
+
+SIDEBAR  
+Items + function:
+- Overview → main dashboard  
+- Patients → patient list  
+- Files → uploaded files + extraction results  
+- Automations → workflow builder  
+- Integrations → manage connected apps  
+- Reports → AI-generated reports  
+- Settings → account & workspace config  
+
+TOP BAR  
+- Search (searches patients, files, workflows)  
+- Notification button (view alerts)  
+- User menu (profile/settings/logout)
+
+MAIN DASHBOARD  
+- KPI Cards (interactive):  
+  - Total Patients  
+  - Documents Processed  
+  - Active Workflows  
+  - Pending Items  
+Clicking each card navigates to respective page.
+
+- Recent Activity Table  
+Each row → opens item details.
+
+- AI Presentation Preview  
+Button: **Open Presentation** → opens report viewer.
+
+========================================================
+5) FILES PAGE
+========================================================
+
+Left: Table  
+Row click → opens right panel  
+
+Right: Detail Panel  
+Buttons with tasks:
+- **Summarize File** → AI summary  
+- **Extract Data** → extraction pipeline  
+- **Link to Patient** → opens patient selector  
+
+========================================================
+6) AUTOMATIONS PAGE
+========================================================
+
+Workflow builder:  
+- drag nodes (Trigger → Extract → Action)  
+- connectors animate quietly  
+
+Buttons:
+- **Add Trigger** → opens trigger modal  
+- **Add Step** → adds extractor/action  
+- **Save Workflow** → saves to backend  
+- **Enable Workflow** → activates automation  
+
+========================================================
+7) INTEGRATIONS PAGE
+========================================================
+
+Grid of integration cards  
+Each card has:
+- status badge  
+- “Connect” or “Disconnect” button  
+- link: “View Setup Guide” → docs page  
+
+========================================================
+8) MICRO-ANIMATIONS — ONLY SUBTLE
+========================================================
+
+- card lift: 2px  
+- button hover: slight tint  
+- table row hover: faint shade  
+- panel slide-in: 140ms  
+- scroll fade: 80ms  
+
+========================================================
+9) TYPOGRAPHY & SPACING
+========================================================
+- H1: 44px thin  
+- H2: 32px medium  
+- H3: 20–22px  
+- body: 16–17px  
+- spacing scale: 24, 32, 48, 64px  
+- card radius: 14–16px  
+
+Keep design extremely clean, calm, structured, premium, and intentional. The aesthetic must match the quiet confidence of ModelML, but adapted to Cleo.ai's clinical automation product.
